@@ -110,3 +110,47 @@ section {
     margin-top: -.4em;
     display: block;
 }
+
+.featured-desc {
+    color: #252525;
+    margin-bottom: 3em;
+    font-size: .9em;
+    line-height: 1.8em;
+    font-weight: 500;
+}
+
+.skills {
+    background: #ff64cb;
+}
+
+.skills-container ul li {
+    background: #ffffff;
+    padding: 2em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+
+    .icon-container {
+        height: 100px;
+        display: grid;
+        place-content: center;
+        margin: 0 auto;
+        
+        &.one {
+            width: 50px;
+        }
+        &.two {
+            width: 100px;
+        }
+        &.three {
+            width: 60px;
+        }
+    }
+
+    .skill-title {
+        font-weight: bold;
+    }
+
+    .featured-desc {
+        margin-bottom: 2em;
+    }
+}
